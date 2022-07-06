@@ -83,7 +83,34 @@ else {
 
 let numdividir3 = parseInt (prompt ("Ingrese un número para dividirlo"))
 
-if (numdividir3 % 2 === 0){
+if (numdividir3 % 2 === 0 && numdividir3 % 3 === 0 && numdividir3 % 5 === 0  && numdividir3 % 7 === 0){
+    document.write ("Es divisible por 2, 3, 5 y 7")
+}
+else if (numdividir3 % 3 === 0 && numdividir3 % 5 === 0 && numdividir3 % 2 === 0){
+    document.write ("Es divisible por 2, 3 y 5")
+}
+else if (numdividir3 % 3 === 0 && numdividir3 % 5 === 0 && numdividir3 % 7 === 0){
+    document.write ("Es divisible por 3, 5, 7")
+}
+else if (numdividir3 % 2 === 0 && numdividir3 % 3 === 0){
+    document.write ("Es divisible por 2 y 3")
+}
+else if (numdividir3 % 3 === 0 && numdividir3 % 5 === 0){
+    document.write ("Es divisible por 3 y 5")
+}
+else if (numdividir3 % 5 === 0 && numdividir3 % 7 === 0){
+    document.write ("Es divisible por 5 y 7")
+}
+else if (numdividir3 % 2 === 0 && numdividir3 % 7 === 0){
+    document.write ("Es divisible por 2 y 7")
+}
+else if (numdividir3 % 2 === 0 && numdividir3 % 5 === 0){
+    document.write ("Es divisible por 2 y 5")
+}
+else if (numdividir3 % 3 === 0 && numdividir3 % 7 === 0){
+    document.write ("Es divisible por 3 y 7")
+}
+else if (numdividir3 % 2 === 0){
     document.write ("Es divisible por 2")
 }
 else if (numdividir3 % 3 === 0){
