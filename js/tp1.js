@@ -121,6 +121,71 @@ if (
 ) {
   document.write(frase.charAt(5));
 }
+if (
+  frase.charAt(6) === "a" ||
+  frase.charAt(6) === "e" ||
+  frase.charAt(6) === "i" ||
+  frase.charAt(6) === "o" ||
+  frase.charAt(6) === "u"
+) {
+  document.write(frase.charAt(6));
+}
+if (
+  frase.charAt(7) === "a" ||
+  frase.charAt(7) === "e" ||
+  frase.charAt(7) === "i" ||
+  frase.charAt(7) === "o" ||
+  frase.charAt(7) === "u"
+) {
+  document.write(frase.charAt(7));
+}
+if (
+  frase.charAt(8) === "a" ||
+  frase.charAt(8) === "e" ||
+  frase.charAt(8) === "i" ||
+  frase.charAt(8) === "o" ||
+  frase.charAt(8) === "u"
+) {
+  document.write(frase.charAt(8));
+}
+if (
+  frase.charAt(9) === "a" ||
+  frase.charAt(9) === "e" ||
+  frase.charAt(9) === "i" ||
+  frase.charAt(9) === "o" ||
+  frase.charAt(9) === "u"
+) {
+  document.write(frase.charAt(9));
+}
+if (
+  frase.charAt(10) === "a" ||
+  frase.charAt(10) === "e" ||
+  frase.charAt(10) === "i" ||
+  frase.charAt(10) === "o" ||
+  frase.charAt(10) === "u"
+) {
+  document.write(frase.charAt(10));
+}
+
+// 9 con bucles
+
+let fraseBucle = prompt("Ingrese una frase de hasta 10 caracteres");
+
+fraseBucle = fraseBucle.toLowerCase();
+letras = 0;
+longitud = fraseBucle.length;
+
+while (letras <= longitud) {
+  if (
+    fraseBucle.charAt(letras) === "a" ||
+    fraseBucle.charAt(letras) === "e" ||
+    fraseBucle.charAt(letras) === "i" ||
+    fraseBucle.charAt(letras) === "o" ||
+    fraseBucle.charAt(letras) === "u"
+  )
+    document.write(fraseBucle.charAt(letras));
+  letras = letras + 1;
+}
 
 // 10.- Escribe un programa que pida un número y nos diga si es divisible por 2, 3, 5 o 7 (sólo hay que comprobar si lo es por uno de los cuatro)
 
